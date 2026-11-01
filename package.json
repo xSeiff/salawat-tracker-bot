@@ -1,0 +1,26 @@
+{
+  "name": "salah-ala-nabi-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that counts prayers upon the Prophet Muhammad (صلى الله عليه وسلم) and reacts with custom number emojis",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "setup:emojis": "node src/setup-emojis.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "islamic",
+    "salawat",
+    "counter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7"
+  }
+}
